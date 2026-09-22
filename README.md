@@ -7,7 +7,7 @@ An end-to-end serverless automation pipeline that aggregates daily artificial in
 
 Clone the entire 4-step workflow directly into your Zapier account:
 
-👉 **[Use the Zapier Template Here](PASTE_YOUR_ZAPIER_TEMPLATE_LINK_HERE)**
+👉 **[https://zapier.com/templates/details/daily-ai-news-digest-via-gemini-gmail-d73c53?secret=MTp0ZW1wbGF0ZTp6Y2JvNlJ3UHY3cC0tOVRXbm94bE96SnFmVlo2TF9YZWo0aVZpbG9RZWdFOmF4eXZoZQ)**
 ---
 
 ## 🏗️ Architecture & Pipeline Flow
@@ -37,16 +37,25 @@ Clone the entire 4-step workflow directly into your Zapier account:
 ⚙️ Detailed Step Configurations
 
 Step 1: Trigger — RSS by Zapier
+
 Event: New Item in Feed
+
 Feed URL: https://techcrunch.com/category/artificial-intelligence/feed/
+
 What Triggers a New Feed Item?: Different Guid/URL (recommended)
 
 Step 2: Collector & Scheduler — Digest by Zapier
+
 Event: Append Entry and Schedule Digest
+
 Title: daily_ai_brief
+
 Entry:
+
 Title: {{1. Title}}
+
 Summary: {{1. Description}}
+
 Link: {{1. Link}}
 
 Frequency: Daily
