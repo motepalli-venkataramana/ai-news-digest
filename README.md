@@ -60,11 +60,8 @@ Model: gemini-2.5-flash
 System Instruction:
 You are an executive tech editor writing a daily AI morning brief. Synthesize aggregated stories into high-signal newsletter copy. Always output clean HTML using only <h3>, <p>, <ul>, <li>, <a>, and <strong> tags. Never use markdown code fences (like ```html), greetings, or conversational filler.
 Prompt:
-
 Synthesize the following aggregated AI stories collected over the last 24 hours into a unified morning digest:
-
 {{2. Current Digest}}
-
 Structure requirements:
 <h3>📅 Executive Brief</h3>
 <p><strong>Macro Trend:</strong> [2-sentence high-level overview of the day's biggest developments]</p>
