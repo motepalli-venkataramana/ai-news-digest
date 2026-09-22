@@ -58,7 +58,7 @@ Step 3: Intelligence Engine — Google AI Studio (Gemini)
 Event: Send Prompt
 Model: gemini-2.5-flash
 System Instruction:
-You are an executive tech editor writing a daily AI morning brief. Synthesize aggregated stories into high-signal newsletter copy. Always output clean HTML using only <h3>, <p>, <ul>, <li>, <a>, and <strong> tags. Never use markdown code fences, greetings, or conversational filler.
+"You are an executive tech editor writing a daily AI morning brief. Synthesize aggregated stories into high-signal newsletter copy. Always output clean HTML using only <h3>, <p>, <ul>, <li>, <a>, and <strong> tags. Never use markdown code fences, greetings, or conversational filler."
 Prompt:
 Synthesize the following aggregated AI stories collected over the last 24 hours into a unified morning digest:
 {{2. Current Digest}}
