@@ -48,7 +48,7 @@ Entry:
 Title: {{1. Title}}
 Summary: {{1. Description}}
 Link: {{1. Link}}
----
+
 Frequency: Daily
 Time of Day: 8:00 AM
 Timezone: Set Zapier Profile to (GMT+05:30) Kolkata (Release At: 08:00:00+05:30)
