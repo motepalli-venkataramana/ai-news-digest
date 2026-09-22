@@ -77,15 +77,25 @@ Structure requirements:
 <p><a href="[Insert source link here]" style="color: #1a73e8; text-decoration: none;"><strong>Read Full Story →</strong></a></p>
 ```
 Step 4: Dispatcher — Gmail
+
 Event: Send Email
+
 To: Your Email Address
+
 From Name: AI Morning Digest
+
 Subject: ⚡ Daily AI Digest — {{zap_meta_human_now}}
+
 Body Type: html
+
 Body: {{3. Candidates Content Parts Text}}
+
 Add signature default: False       
 
 🔒 Prerequisites
+
 Free Zapier account
+
 Free Google AI Studio API Key
-Authenticated Gmail accoun
+
+Authenticated Gmail account
