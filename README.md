@@ -62,7 +62,7 @@ System Instruction:
 ```You are an executive tech editor writing a daily AI morning brief. Synthesize aggregated stories into high-signal newsletter copy. Always output clean HTML using only <h3>, <p>, <ul>, <li>, <a>, and <strong> tags. Never use markdown code fences, greetings, or conversational filler.```
 
 Prompt:
-Synthesize the following aggregated AI stories collected over the last 24 hours into a unified morning digest:
+```Synthesize the following aggregated AI stories collected over the last 24 hours into a unified morning digest:
 {{2. Current Digest}}
 Structure requirements:
 <h3>📅 Executive Brief</h3>
@@ -75,7 +75,7 @@ Structure requirements:
   <li>[Enterprise, market, or societal impact 2]</li>
 </ul>
 <p><a href="[Insert source link here]" style="color: #1a73e8; text-decoration: none;"><strong>Read Full Story →</strong></a></p>
-
+```
 Step 4: Dispatcher — Gmail
 Event: Send Email
 To: Your Email Address
